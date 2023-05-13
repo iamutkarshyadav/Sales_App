@@ -1,0 +1,48 @@
+.navbar {
+  background-color: #594545;
+  color: #fff8ea;
+}
+
+.navbar-brand, .navbar-brand:hover,.navbar-brand::after {
+  font-family: "Lora", serif;
+  font-weight: 600;
+  font-size: 30px;
+  font-style: italic;
+  color: #fff8ea !important;
+  margin-right: 80px;
+}
+
+.navbar-toggler,
+.collapsed,
+i {
+  color: #fff8ea;
+  border: #fff8ea !important;
+}
+
+.active {
+  background-color: #9e7676;
+  border-radius: 6px;
+  padding-left: 14px;
+}
+
+.active .nav-link {
+  color: #fff8ea;
+}
+
+.nav-link {
+  color: #fff8ea;
+  text-align: center;
+}
+.nav-link:hover {
+  color: #fff8ea;
+}
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .active {
+    border-radius: 0px;
+    padding-left: 0px;
+  }
+}
