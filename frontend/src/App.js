@@ -8,6 +8,7 @@ import Register from "./pages/Register";
 
 function App() {
   return (
+    //divs
     <div className="app-bg">
       <BrowserRouter>
         <Header />
